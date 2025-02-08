@@ -10,6 +10,9 @@ export default function MainNav() {
         <li>
           <NavLink to="/menu">Lista personaggi</NavLink>
         </li>
+        <li>
+          <NavLink to="/about-us">Chi Siamo</NavLink>
+        </li>
       </ul>
     </nav>
   );
