@@ -5,6 +5,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import Menu from "./pages/Menu";
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 import PageNotFound from "./pages/PageNotFound";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contacts" element={<ContactUs />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>

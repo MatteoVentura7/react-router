@@ -13,6 +13,9 @@ export default function MainNav() {
         <li>
           <NavLink to="/about-us">Chi Siamo</NavLink>
         </li>
+        <li>
+          <NavLink to="/contacts">Contatti</NavLink>
+        </li>
       </ul>
     </nav>
   );
