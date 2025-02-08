@@ -7,6 +7,9 @@ export default function MainNav() {
         <li>
           <NavLink to="/">Home Page</NavLink>
         </li>
+        <li>
+          <NavLink to="/menu">Lista personaggi</NavLink>
+        </li>
       </ul>
     </nav>
   );
