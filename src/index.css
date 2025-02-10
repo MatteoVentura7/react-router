@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .jumbo {
-  background-image: url("/img/_MG_4672.jpg");
+  background-image: url("/public/img/back-jumbo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 880px;
@@ -75,4 +75,28 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+}
+
+.img-men {
+  background-image: url("/public/img/back-menu.jpg");
+
+  background-repeat: repeat;
+}
+
+.img-men::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 126.25rem;
+  background-color: black; /* Colore dell'overlay (puoi cambiarlo) */
+  opacity: 0.5; /* Regola il livello di opacità */
+  z-index: 0; /* Assicurati che sia dietro al contenuto */
+}
+
+.cont-menu,
+header {
+  position: relative;
+  z-index: 1; /* Porta il contenuto sopra l'overlay */
 }

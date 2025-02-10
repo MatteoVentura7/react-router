@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="stars">
           <img
             className="w-50 justify-center"
-            src="public\img\pngegg.png"
+            src="public\img\stars.png"
             alt=""
           />
         </div>

@@ -6,7 +6,7 @@ export default function Card({ pers }) {
         src={pers.image}
         alt={pers.name}
       />
-      <h3 className="text-yellow-600 text-lg font-bold">{pers.name}</h3>
+      <h3 className="text-orange-500 text-lg font-bold">{pers.name}</h3>
     </div>
   );
 }
