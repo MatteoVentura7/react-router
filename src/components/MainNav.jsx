@@ -5,16 +5,24 @@ export default function MainNav() {
     <nav>
       <ul className="flex gap-x-6 text-lg">
         <li>
-          <NavLink to="/">Home Page</NavLink>
+          <NavLink className="animated-underline" to="/">
+            Home Page
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/menu">Menù</NavLink>
+          <NavLink className="animated-underline" to="/menu">
+            Menù
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about-us">Chi Siamo</NavLink>
+          <NavLink className="animated-underline" to="/about-us">
+            Chi Siamo
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contacts">Contatti</NavLink>
+          <NavLink className="animated-underline" to="/contacts">
+            Contatti
+          </NavLink>
         </li>
       </ul>
     </nav>

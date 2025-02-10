@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HomePage() {
   return (
     <>
@@ -11,7 +13,9 @@ export default function HomePage() {
           <div className="btn">
             {" "}
             <button className="btn-pre">Prenota</button>
-            <button className="btn-men">Esplora menù</button>
+            <Link to={"/menu"}>
+              <button className="btn-men">Esplora menù</button>
+            </Link>
           </div>
         </div>
       </div>
