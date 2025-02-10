@@ -100,3 +100,28 @@ header {
   position: relative;
   z-index: 1; /* Porta il contenuto sopra l'overlay */
 }
+
+.btn-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+}
+
+.btn-nav button {
+  background-color: #ca3500;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  border-radius: 20px;
+}
+
+.btn-redo {
+  background-color: #ca3500;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  border-radius: 20px;
+  margin-bottom: 1.875rem;
+}
