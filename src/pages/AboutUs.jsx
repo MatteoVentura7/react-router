@@ -58,6 +58,49 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
+        <div className="marchi">
+          <h1>I nostri marchi</h1>
+          <div className="grid grid-cols-6 gap-6">
+            <div>
+              <img
+                className="img-prod"
+                src="public\img\logo-latteria-sorrentina.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img className="img-prod" src="public\img\logo.webp" alt="" />
+            </div>
+            <div>
+              <img
+                className="img-prod"
+                src="public\img\logo_landscape.webp"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                className="img-prod"
+                src="public\img\logo-mulinocaputo-2024-dark.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                className="img-prod"
+                src="public\img\logo-header-new.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                className="img-prod"
+                src="public\img\logo.d4f34bd5.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

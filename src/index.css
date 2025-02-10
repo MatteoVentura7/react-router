@@ -182,3 +182,16 @@ ABOUT US
 .about-us {
   padding-bottom: 1.875rem;
 }
+
+.img-prod {
+  width: 7.5rem;
+}
+
+.marchi {
+  padding-top: 1.875rem;
+  padding-bottom: 3.125rem;
+}
+
+.marchi h1 {
+  padding-bottom: 2.5rem;
+}
