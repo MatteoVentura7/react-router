@@ -48,13 +48,13 @@ export default function AboutUs() {
             </div>
             <div>
               <img
-                src="public\img\DALL·E 2025-02-10 17.48.04 - A friendly waiter standing in a cozy, Italian-style pizzeria, holding a tray with a freshly baked pizza. The waiter is dressed in a crisp white shirt,.webp"
+                src="public\img\DALL·E 2025-02-10 18.00.12 - A hardworking dishwasher in the kitchen of a cozy Italian pizzeria, standing near a sink filled with soapy water and dishes. The dishwasher is wearing.webp"
                 alt=""
               />
               <h2>
-                <strong>Cameriere</strong>
+                <strong>Lavapiatti</strong>
               </h2>
-              <p>Giuseppe</p>
+              <p>Marco</p>
             </div>
           </div>
         </div>
