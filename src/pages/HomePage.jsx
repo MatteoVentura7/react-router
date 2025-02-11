@@ -39,6 +39,14 @@ export default function HomePage() {
           <strong>In base a 300 recensioni</strong>
         </p>
       </div>
+      <div className="info-orari">
+        <h1 className="text-center pt-20">Vieni a trovarci!</h1>
+        <h3 className="text-center pt-15">Via Monte Napoleone , Milano</h3>
+        <p className="text-center pt-15 pb-20">
+          Lunedi-Domenica: 19:00-24:00 <br />
+          Chiuso il Martedi non festivo
+        </p>
+      </div>
     </>
   );
 }
